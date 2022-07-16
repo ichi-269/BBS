@@ -8,11 +8,9 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {"source": "/api/post", "function": "post"},
-      {"source": "/api/delete", "function": "delete"}
     ]
+  },
+  "functions": {
+    "source": "functions"
   }
 }
-
